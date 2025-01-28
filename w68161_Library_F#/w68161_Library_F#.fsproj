@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Models.fs" />
+    <Compile Include="Data.fs" />
+    <Compile Include="MainMenu.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
