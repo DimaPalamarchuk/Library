@@ -2,6 +2,10 @@
 
     open System
 
+    type Role =
+        | Admin
+        | User
+
     type Book = {
         Id: int
         Title: string
@@ -11,6 +15,7 @@
     type User = {
         Id: int
         Name: string
+        Role: Role
     }
 
     type Borrowing = {
